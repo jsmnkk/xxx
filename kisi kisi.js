@@ -1,0 +1,3 @@
+function mtk() {
+    alert('rumus')
+}
