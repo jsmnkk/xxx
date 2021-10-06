@@ -1,5 +1,5 @@
 function b(num = null) {
-    if (num === nul) {
+    if (num === null) {
         var res = `--BAHASA INDONESIA--
 
 1.STRUKTUR DARI TESK HASIL OBSERVASI
