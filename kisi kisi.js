@@ -2,90 +2,126 @@ function b(num = null) {
     if (num === null) {
         var res = `--BAHASA INDONESIA--
 
-1.STRUKTUR DARI TESK HASIL OBSERVASI
-2.TUJUAN LHO
-3.YANG DI MAKSUD INFORMATIF
-4.LHO DI SAJIKAN SESUAI DENGAN...YANG DI DAPATKAN
-5.APA YANG DIMAKSUD KALIMAT DEFINISI DAN DESKRIPSI
-6.STRUKTUR TESK EKSPOSISI
-7.APA YANG DIMAKSUD DENGAN KALIMAT TIDAK EFEKTIF
-8.TMABAHAN
-
+1.PENGERTIAN NEGOISASI
+2.STRUKTUR NEGOISASI
+3.TUJUAN NEGOISASI
+4.PENGERTIAN DAN CONTOH DARI :
+-Kalimat persuasif
+-Kalimat Interogatif
+-Kalimat Deklaratif
+5.PENGERTIAN DARI :
+-Moderator
+-Afirmatif
+-Oposisi
+-Netral
+-Notulen
+-Mosi
+6.YANG DIMAKSUD DENGAN "MENYANGGAH"
+7.KRITERIA ARGUMEN DALAM DEBAT
+8.CIRI-CIRI DEBAT
+9.FUNGSI DEBAT
+10.TUJUAN DEBAT
 `
         show_overlay(res);
     } else {
-        if (num === 1) {
-            var res = `STRUKTUR LHO
+        if (num == 1) {
+            var res = `PENGERTIAN NEGOISASI
 
-Teks laporan hasil observasi disusun dengan struktur sebagai berikut
-
-1.pernyataan umum atau klasifikasi berisi pendahuluan atau pengantar hal umum mengenai objek yang akan disampaikan atau menjelaskan secara garis besar.
-2.deskripsi bagian berisi uraian detail mengenai objek yang disampaikan.
-3.deskripsi manfaat berisi manfaat atau kegunaannya dalam kehidupan.
+Negoisasi adalah proses tawar-menawar dengan jalan berunding guna mencapai kesepakatan bersama
 `
-        } else if (num === 2) {
-            var res = `--TUJUAN LHO--
+        } else if (num == 2) {
+            var res = `STRUKTUR NEGOISASI
 
-Tujuan Teks Laporan Hasil Observasi secara umum adalah untuk menyajikan fakta-fakta yang telah terbukti secara ilmiah melalui pengamatan. Penyajian ini bertujuan agar pembaca bisa mendapatkan informasi serta penjelasan dari kacamata keilmuan.
+-Orientasi
+Orientasi merupakan struktur yang berada di awal kalimat. Sebagai pembuka, bisa berupa salam atau sapaan untuk memulai proses negosiasi.
+-Permintaan
+Kedua, yaitu permintaan. Permintaan di sini merupakan hal yang akan dirundingkan atau dibutuhkan. Misalnya ibu ingin membeli sayur.
+-Pemenuhan
+Pemenuhan merupakan kesanggupan dari suatu pihak atas pihak lainnya. Misalnya pedagang memiliki sayur yang dibutuhkan oleh ibu.
+-Penawaran
+Penawaran terjadi ketika dibutuhkan proses perundingan atau tawar menawar. Ini merupakan bagian inti dari negosiasi. Misalnya, ibu tidak setuju dengan harga sayur yang ditawarkan oleh penjual. Maka, ibu meminta supaya harga diturunkan atau ada bonus lainnya.
+-Persetujuan
+Setelah melewati proses tawar menawar, maka diperoleh kesepakatan antara kedua belah pihak. Persetujuan ini merupakan jalan tengah yang diambil dan tetap menguntungkan kedua belah pihak
+-Penutup
+Penutup merupakan bagian akhir dari proses negosiasi. Biasanya pada bagian ini, terdapat kata terima kasih atau ucapan salam.
+`
+        } else if (num == 3) {
+            var res = `TUJUAN NEGOISASI
 
-Selain tujuan umum tersebut, Teks Laporan Hasil Observasi juga memiliki tujuan spesifik lainnya, yakni sebagai berikut:
+-Mengatasi atau menyesuaikan perbedaan, untuk memperoleh sesuatu dari pihak lain (yang tidak dipaksakan)
+-Untuk mencapai kesepakatan yang dapat diterima kedua belah pihak dalam melakukan transaksi, atau menyelesaikan perselisiahan pendapat
+`
+        }else if (num == 4){
+            var res = `PENGERTIAN DAN CONTOH : 
 
-●   Bertujuan untuk mengatasi suatu persoalan.
-●   Bertujuan untuk menemukan metode atau teknik terbaru.
-●   Bertujuan untuk mengambil keputusan yang paling efektif.
-●   Bertujuan untuk mengetahui bagaimana perkembangan suatu masalah.
-●   Bertujuan untuk menguji suatu hipotesa.`
-        } else if (num === 3) {
-            var res = `--INFORMATIF--
-            
-Yang dimaksud Informatif adalah segala sesuatu yang bersifat memberi informasi atau menerangkan.
-(MENGANDUNG INFORMASI)`
-        } else if (num === 4) {
-            var res = `Laporan hasil observasi disajikan dengan tujuan MENDESKRIPSIKAN SESUATU.
-            
-Tujuan teks laporan hasil observasi disajikan secara fakta atau sesuai dengan kenyataan adalah karena teks laporan hasil observasi hanya menyampaikan informasi yang diperoleh sebagaimana adanya dan hasil dari laporan tersebut dijadikan dasar dari penelitian lainnya.
+a.Kalimat persuasif : ialah menyerukan suatu ajakan untuk melakukan atau membeli sesuatu kepada pembaca
+contoh : ayo jaga kebersihan!
+b.kalimat interogatif : kalimat yang diakhiri dengan tanda tanya (?)
+contoh : apa kabarmu?
+c.kalimat deklararif : kalimat deklaratif adalah kalimat kalimat berita yang dipakai pembicara dan penulis
+contoh : Tidak ada ikan lebih besar dari paus biru
+`
+        }else if (num == 5){
+            var res = `PENGERTIAN DARI:
 
-Penjelasan:
+a.moderator : orang yang memimpin dan membantu jalanya perdebatan, mulai membacakan tata tertib debat, mengajukan pertanyaan dan menengahi adu pendapat peserta debat
+b.afirmatif : tim yang setuju dengan topik perdebatan (mosi)
+c.oposisi   : tim yang tidak setuju dengan mosi
+d.netral    : tim yang tidak menaruh dukungan dan tidak condong terhadap satu pihak
+e.notulen   : orang yang bertugas mencatat dan menulis kesimpulan debat tersebut
+f.mosi      : suatu topik atau hal yang akan diperdebatkan oleh peserta debat
+`
+        }else if (num == 6){
+            var res = `YANG DIMAKSUD DENGAN "MENYANGGAH"
+"MENYANGGAH" merupakan menolak dengan alasan suatu pendapat
+`
+        }else if (num == 7){
+            var res = `KRITERIA ARGUMEN DALAM DEBAT
 
-Teks laporan hasil observasi adalah teks yang disusun dari hasil pengamatan sebagaimana adanya. Teks ini dijadikan sumber atau referensi penelitian lainnya, sehingga harus disajikan sesuai fakta atau sesuai dengan kenyataan`
-        } else if (num === 5) {
-            var res = `--KALIMAT DEFINISI & DESKRIPSI
-            
-Pengertian kalimat deskripsi adalah kalimat yang menggunakan verba sebagai deskriptif.
+1. Kriteria Struktur. Sebuah argumen harus terstruktur secara baik, entah adalam bentuk deduktif, induktif, maupun abduktif dengan premis-premis yang tidak saling terkait namun tidak berkontradiksi satu sama lain. Premis-premis yang diajukan pun tidak boleh mengandung gagasan yang sama  persis dengan kesimpulan atau klaim yang dikemukakan.
 
-Pengertian kalimat definisi adalah kalimat yang menggunakan verba definitif.
+2. Kriteria Relevansi. Sebuah argumen harus mengandung premis-premis yang relevan dengan isu yang dibahas. Premis-premis tersebut menjadi alasan-alasan yang memperlihatkan kebenaran dari sebuah penerimaan atau pun penolakan akan sebuah posisi/pandangan.
 
-Pembahasan
-Kalmat definisi adalah kalimat yang menggunakan verba definitif, seperti adalah dan merupakan
+3. Kriteria Akseptabilitas. Seseorang yang mengajukan sebuah argumen untuk membela atau pun menolak sebuah pandangan harus mempresentasikan premis-premis yang dapat diterima secara rasional. Jadi, penerimaan di sini bukan didasarkan atas orang yang menerima (penerimaan subjektif), melainkan nilai rasionalitas dari premis-premis yang diajukan. Nilai rasionalitas dari premis yang akseptabel (dapat diterima), antara lain:
 
-Kalimat deskripsi adalah kalimat yang menggunakan verba sebagai deskriptif, seperti terdiri dari, terbuat dari`
-        } else if (num === 6) {
-            var res = `--STRUKTUR TEKS EKSPOSISI--
+Premis yang mencerminkan pengetahuan umum yang tidak dapat ditolak;
+Premis yang mengacu pada pengalaman personal atau observasi;
+Premis yang dapat dibela secara meyakinkan dalam keseluruhan konteks argumen yang dipresentasikan;
+Premis yang berisi kesaksian yang tidak kontroversial dari seorang saksi mata;
+Premis yang berasal dari kesimpulan dari sebuah argumen lainnya yang baik; dan
+Premis yang berisi sebuah asumsi rasional berkait konteks argumen yang dipresentasikan.
+4. Kriteria Kecukupan. Argumen yang baik haruslah berisi sejumlah premis yang cukup, dalam arti solid untuk mendasari kesimpulan atau klaim yang ditarik dari argumen tersebut.
 
-Struktur Teks Eksposisi
-Teks eksposisi terdiri dari tiga struktur. Antara lain tesis, argumen, dan penegasan ulang. Berikut penjelasan dari masing-masing struktur.
+5. Kriteria Sangkalan. Argumen yang disajikan untuk menerima atau pun menolak sebuah pandangan haruslah merupakan argumen yang mampu bertahan terhadap kritikan-kritikan terbaik yang dapat dibangun untuk melawan argumen tersebut.
+`
+        }else if (num == 8){
+            var res = `CIRI CIRI DEBAT 
 
-1. Tesis
+-Terdapat dua sudut pandang, yaitu affirmatif atau pro (pihak yang menyetujui topik) dan negatif atau kontra (pihak yang tidak menyetujui topik).
+-Adanya proses saling mempertahankan pendapat antara kedua belah pihak.
+-Adanya adu argumentasi yang bertujuan untuk memperoleh kemenangan.
+-Hasil debat diperoleh melalui voting atau keputusan juri.
+-Sesi tanya jawab bersifat terbatas dan bertujuan untuk menjatuhkan pihak lawan.
+-Adanya pihak yang berperan sebagai penengah yang biasanya dilakukan oleh moderator.
+`
+        }else if (num == 9){
+            var res = `FUNGSI DAN MANFAAT DEBAT
 
-Tesis berisi pendapat yang dikemukakan oleh penulis. Tesis ini terletak pada awal paragraf atau sebagai pembuka kalimat yang disampaikan kepada pembaca.
+-Untuk melatih mental dan keberanian.
+-Untuk meningkatkan kemampuan solutif.
+-Untuk memantapkan pemahaman konsep.
+-Untuk melatih sikap kritis.
+`
+        }else if (num == 10){
+            var res = `TUJUAN DEBAT
 
-2. Argumen
+Tujuan debat secara umum adalah untuk mendiskusikan atau memutuskan masalah dan perbedaan atas sesuatu hal. Selain itu, tujuan debat di antaranya yaitu:
 
-Argumen berisikan bukti yang merujuk pada fakta dan data yang kuat untuk mendukung pernyataan atau pendapat yang disampaikan dalam tesis. Pada bagian ini, penulis menyampaikan pengembangan dari pendapat yang dikemukakan.
-
-3. Penegasan Ulang
-
-Penegasan ulang adalah bagian akhir dari teks eksposisi atau sering disebut kesimpulan. Bagian ini berisikan tentang penegasan ulang pendapat yang disampaikan sebelumnya.
-
-Baca artikel detikedu, "7 Contoh Teks Eksposisi Beserta Struktur dan Jenisnya" selengkapnya https://www.detik.com/edu/detikpedia/d-5695340/7-contoh-teks-eksposisi-beserta-struktur-dan-jenisnya.
-
-Download Apps Detikcom Sekarang https://apps.detik.com/detik/`
-        } else if (num === 7) {
-            var res = `--KALIMAT TIDAK EFEKTIF--
-
-Kalimat efektif adalah kalimat yang mampu menyampaikan pesan dari penulisnya dengan baik dan tepat akibat tidak terjadinya kesalahan penulisan, tata bahasa, maupun ejaan.
-
-Kalimat tidak efektif adalah kalimat yang tidak atau kurang mampu menyampaikan pesan dari penulisnya dengan baik dan tepat akibat terjadinya kesalahan penulisan, tata bahasa, maupun ejaan.
+-Melatih keberanian mengemukakan pendapat.
+-Melatih mematahkan pendapat lawan.
+-Meningkatkan kemampuan merespons sesuatu masalah.
+-Memantapkan pemahaman konsep seseorang terhadap materi atau pelajaran yang telah diberikan.
+-Melatih seseorang untuk bersikap kritis terhadap semua teori yang sudah diberikan.
 `
         } else {
             var res = 'TIDAK ADA (-)'
